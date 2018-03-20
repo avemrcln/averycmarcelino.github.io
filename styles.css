@@ -1,60 +1,54 @@
-<style>
 body {
-background-color: #C0C0C0;
+    margin: 100px;
+    font-family: "Arial", Monospace;
+    font-size: 14px;
+    background-image: url("https://scontent.fmnl8-1.fna.fbcdn.net/v/t1.0-9/29386429_10211916782376739_8870619565311131648_o.jpg?_nc_cat=0&oh=49a4e468be64b77299483435ecdb98dc&oe=5B2A25F9");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-div1 {
-      background-image: url("https://buildingiq.com/wp-content/uploads/2017/04/BuildingIQ-homepage-hero-buildings-resized.jpg");
-      position: absolute;
-      width: 100%;
-      height: 300px;
-      opacity: 100%;
-.img {
-    border-color: white;
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-.font1 {
-	font-family: 'Kanit', sans-serif;
-	font-size: 20px;
-}
-h1 {
-	font-family: 'Cinzel', serif;
-	font-size: 40px;
-	font-weight: bold;
-	width: 100%;
-	height: 50%;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-p0 {
-	font-family: 'Poiret One', cursive;
-	font-size: 40px;
-	font-weight: bold;
-	width:100%;
-	height:50%;
-}
-.div0 {
-background-color: white;
-margin-top: 50px; 
-}
-.div2 {
-font-family: 'Oxygen', sans-serif;
-font-size: 20px;
-color: white;
-width: 400px;
-height: 100%;
 
-	}
-.div3 {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 20px;
-	width: 400px;
-	height: 400px;
-	}
-h3 {
-font-weight: bold;
+header {
+    font-family: "Arial", Monospace;
+    padding-bottom: 10px;
 }
-</style>
+
+img {
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+header span {
+    font-size: 10pt;
+    float: right;
+}
+
+header h2 {
+    font-family: "Arial", Monospace;
+    font-size: 10t;
+}
+
+header h3 {
+    font-family: "Arial", Monospace;
+    font-size: 10pt;
+}   
+    
+section p {
+    font-size: 10pt;
+    margin-left: 23px;
+}
+
+section ul {
+    list-style-type: circle;
+}
+
+section ol {
+    list-style-type: circle;
+}
